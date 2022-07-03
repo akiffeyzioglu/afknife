@@ -6,7 +6,7 @@ This pod helpful for production ready troubleshooting.
 
 `kubectl apply -f pod.yaml && sleep 20 && k exec -it afknife -- sh`
 
-## Related Coammand
+## Related Command
 
 * vim
 * curl
