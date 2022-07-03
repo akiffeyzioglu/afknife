@@ -10,6 +10,9 @@ spec:
       - /bin/sh
       - "-c"
       - "sleep 60m"
-    imagePullPolicy: Always
+    imagePullPolicy: IfNotPresent
     name: afknife
+    securityContext:
+      privileged: true
+      allowPrivilegeEscalation: true
   restartPolicy: Always
